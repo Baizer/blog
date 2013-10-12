@@ -2,6 +2,8 @@ Feature: Manage comments
 
   @javascript
   Scenario: Create comment
+    When I log in
+    
     Given I am on post page
 
     When I fill comment form
